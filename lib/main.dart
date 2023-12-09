@@ -56,6 +56,7 @@ class _MyAppState extends State<MyApp> {
     setState(() { // state update and make new widget
       name_p.add(newName);
       ContactsService.addContact(newName);
+      print("hello_git");
     });
   }
 
